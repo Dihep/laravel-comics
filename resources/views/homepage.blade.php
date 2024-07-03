@@ -7,7 +7,18 @@
     <title>Homepage</title>
     {{-- <link rel="stylesheet" href=".../resoursces/css/style.css"> --}}
 </head>
+
+
 <body>
+
     <h1>Questa è la homepage</h1>
+
+    <ul>
+        <li>Stampe di prova:</li>
+        <li>{{$prova1}}</li>
+        <li>{{$prova2}}</li>
+        <li>{{$prova3}}</li>
+    </ul>
+
 </body>
 </html>
