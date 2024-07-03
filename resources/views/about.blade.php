@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Crediti</title>
     {{-- <link rel="stylesheet" href=".../resoursces/css/style.css"> --}}
 </head>
 
 
 <body>
 
-    <h1>Questa è la homepage</h1>
-
+    <h1>Questi sono i crediti:</h1>
+    <h2>{{$author}}</h2>
     <ul>
-        <li>Stampe di prova:</li>
-        <li>Prove terminate! Vedere i crediti (/about)</li>
-
+        @foreach ($persone as $item)
+            <li>
+                <a href=" {{$item['link']}} "> {{$item['text']}} </a>
+            </li>
+        @endforeach
     </ul>
 
 </body>
