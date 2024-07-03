@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+HTML {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    border: 1px solid white;
+    border-radius: 1rem;
+}
